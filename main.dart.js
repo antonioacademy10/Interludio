@@ -16521,8 +16521,8 @@ _.z=_.y=null
 _.Q=!1
 _.ch=!0
 _.db=_.cy=_.cx=!1},
-a6l:function(){var s="UI/UX Designer",r="Apple Dev. Academy",q=null
-return new Q.mv(H.b([new A.iY("Fabrizio Pezzella",s,"Assets/ProfileImages/fabrizio_pezzella.jpeg",r,q),new A.iY("Eleonora Della Porta",s,"Assets/ProfileImages/eleonora_della_torta.jpeg",r,q),new A.iY("Luigi Barretta",s,"Assets/ProfileImages/luigi_barretta.jpeg",r,q),new A.iY("Antonio Elefante",s,"Assets/ProfileImages/antonio_elefante.jpeg",r,q),new A.iY("Francesco Tirsi",s,"Assets/ProfileImages/francesco_tirsi.jpeg",r,q)],t.Y),q)},
+a6l:function(){var s="Apple Dev. Academy",r=null,q="Software Engineer"
+return new Q.mv(H.b([new A.iY("Fabrizio Pezzella","UI/UX Designer","Assets/ProfileImages/fabrizio_pezzella.jpeg",s,r),new A.iY("Eleonora Della Porta","Designer","Assets/ProfileImages/eleonora_della_torta.jpeg",s,r),new A.iY("Luigi Barretta",q,"Assets/ProfileImages/luigi_barretta.jpeg",s,r),new A.iY("Antonio Elefante",q,"Assets/ProfileImages/antonio_elefante.jpeg",s,r),new A.iY("Francesco Tirsi","Project Manager","Assets/ProfileImages/francesco_tirsi.jpeg",s,r)],t.Y),r)},
 mv:function mv(a,b){this.c=a
 this.a=b},
 LT:function LT(a){this.a=a},
@@ -53050,17 +53050,15 @@ T.Es.prototype={
 bb:function(){this.by()
 this.kO("Ciao")},
 kO:function(a){return this.HK(a)},
-HK:function(a){var s=0,r=P.a8(t.z),q=this,p,o,n
+HK:function(a){var s=0,r=P.a8(t.z),q=this,p,o
 var $async$kO=P.a4(function(b,c){if(b===1)return P.a5(c,r)
 while(true)switch(s){case 0:q.e=!0
 if(q.c!=null)q.aG(new T.XJ(q,a))
 p=t.z
 s=2
 return P.ab(P.a6Q(P.bZ(0,1200,0),p),$async$kO)
-case 2:o=q.d.a
-n=C.b.er(P.bM(o.h(0,a),!0,p),0)
-o=o.h(0,a)
-q.f.push(new M.rf(n,!0,"Assets/Icons/ChatbotIcon.png"))
+case 2:o=P.bM(q.d.a.h(0,a),!0,p)
+q.f.push(new M.rf(C.b.er(o,0),!0,"Assets/Icons/ChatbotIcon.png"))
 q.r=o
 q.e=!1
 if(q.c!=null)q.aG(new T.XK())
@@ -53103,7 +53101,6 @@ n=t.Y
 s=T.To(H.b([q,M.bb(l,L.en(m.c,l,A.lB(l,l,C.j,l,l,l,l,l,l,l,l,18,l,l,l,l,!0,l,l,l,l,l,l)),C.k,l,l,new S.cj(l,l,l,o,r,new T.jc(C.rW,C.o8,C.eR,k,l,l),C.M),l,l,l,p,l,l,j*0.7)],n),C.bS,C.mq,C.fJ,s)
 if(m.r){k=T.fU(l,4,l)
 if(!m.y){r=m.f
-r.toString
 q=H.ae(r).j("aA<1,kx*>")
 q=new T.DV(C.nN,4,4,P.as(new H.aA(r,new N.Qi(m),q),!0,q.j("b0.E")),l)
 r=q}else r=new N.r2(C.j,C.ul,8,P.bZ(0,0,2),l)
